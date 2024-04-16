@@ -1,0 +1,285 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*PRIMERA PARTE */
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: #EEF8FC ;
+}
+#menu img{
+    width: 10%;
+}
+#menu button{
+    padding: 1em;
+    border: none;
+    border-radius: 2em;
+    font-size: 15px;
+}
+
+/*SEGUNDA PARTE */
+#banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    align-items: center;
+    margin: auto;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: #EEF8FC ;
+}
+#banner div{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 60vh;
+    gap: 2em;
+    
+}
+#banner div h1{
+    margin-bottom: 1.5em;
+    
+}
+#banner div p{
+    margin-left: 1.5em;
+}
+#banner button{
+    padding: 1em 3em;
+    float: right;
+    margin-right: auto;
+    border-radius: 2em;
+    background-color: #D960A0;
+    color: white;
+    border: none;
+    margin-top: 2em;
+    align-items: center;
+    margin-left: 4em;
+}
+#banner figure img{
+    width: 75%;
+    float: right;
+    margin-right: 4em;
+} 
+
+#s-uno{
+    background-color: white;
+}
+
+.p-uno{
+    gap: 2em;
+    margin: 4em ;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 20px rgb(219, 213, 213);
+}
+.p-uno div{
+    width: 50%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    
+}
+.p-uno figure img{
+    width:200px;
+    align-items: center;
+}
+
+
+.p-dos{
+    gap: 2em;
+    margin: 4em ;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 20px rgb(219, 213, 213);
+
+}
+.p-dos figure img{
+    width:200px;
+    align-items: center;
+    display: flex;
+
+}
+.p-dos div{
+    width: 50%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    
+}
+
+
+.p-tres{
+    gap: 2em;
+    margin: 4em ;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 20px rgb(219, 213, 213);
+
+}
+.p-tres div{
+    width: 50%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    
+}
+.p-tres figure img{
+    width:200px;
+    align-items: center;
+    display: flex;
+
+}
+.sc4{
+    font-size: 22px;
+}
+.sc4 div{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.sc4 h3{
+    margin-bottom: 2%;
+}
+.sc4 div button{
+    padding: 1em;
+    border: none;
+    border-radius: 20px;
+    background: rgb(241, 79, 193);
+    color: white;
+    width: 15%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+#pie-pagina{
+    width: 100%;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    background-color: #00252E;
+    color: white;}
+
+    .logo{
+        width: 50%;
+    }
+    .ul1{
+        list-style: none;
+    }
+    .ul2{
+        list-style: none;
+        align-items: center;
+    }
+    .ul3{
+        list-style: none;
+    }
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    body {
+      background-color:white;
+    }
+    #menu img{
+        width: 50%;
+    }
+    #banner{
+        flex-direction: column;
+    }
+    #banner div{
+      width: 100%;
+      gap: 1em;  
+    }
+    .p-uno{
+        flex-direction: column-reverse;
+        text-align: center;
+        display: flex;
+        padding: 1em;
+        color: rgb(0, 0, 0);
+        
+        align-items: center;
+    }
+    .p-dos{
+        flex-direction: column-reverse;
+        text-align: center;
+        display: flex;
+        padding: 1em;
+       
+        align-items: center;
+    }
+    .p-tres{
+        flex-direction: column-reverse;
+        text-align: center;
+        display: flex;
+        padding: 1em;
+        align-items: center;
+
+    }
+    .p-uno div{
+        text-align: center;
+        padding: 0.5em;
+        width: 100%;
+    }
+    .p-dos div{
+        width: 100%;
+        text-align: center;
+        padding: 0.5em;
+    }
+    .p-tres div{
+        width: 100%;
+        text-align: center;
+        padding: 0.5em;
+    }
+    .sc4{
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sc4 div button{
+        width: 60%;
+    }
+    .logo{
+        width: 50%;
+    }
+    #pie-pagina {
+        grid-template-columns: 1fr;
+        grid-template-rows:0.5fr 0.5fr 0.5fr ;
+    }
+    .ul1{
+        line-height: 1.5;
+    }
+    .ul2{
+        line-height: 1.5;
+    }
+    .ul3{
+        line-height: 1.5;
+    }
+  }
+
+   
